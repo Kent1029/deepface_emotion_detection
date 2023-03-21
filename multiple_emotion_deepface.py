@@ -54,6 +54,6 @@ for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 5)    # 利用 for 迴圈，抓取每個人臉屬性，繪製方框
     
 
-cv2.imshow('oxxostudio', img)
+cv2.imshow('Emotion Detect', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
