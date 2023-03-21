@@ -1,5 +1,5 @@
 # deepface_emotion_detection
-## This is a project that can detect mutiple emotion with python, deepface, openCV,numpy
+## This is a project that can detect mutiple emotion with python, deepface, openCV and numpy.
 
 ### First
 You need to create environment in your computer.</br>
