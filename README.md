@@ -1,9 +1,9 @@
 # deepface_emotion_detection
-## This is a project that can detect mutiple emotion with python, deepface, openCV and numpy.
+## This is a project that can detect multiple emotion with python, deepface, openCV and numpy.
 
 ### First
 You need to create environment in your computer.</br>
-I alreadly export my conda environment.</br>
+I already export my conda environment.</br>
 So you can following the step to create the environment.</br>
 ```
 conda env create -f env.yaml
