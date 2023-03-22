@@ -25,7 +25,7 @@ def putText(x,y,text,size=50,color=(255,0,0)):
     draw.text((x, y), text, fill=color, font=font) # 加入文字
     img = np.array(imgPil)                         # 轉換成 np.array
 
-img = cv2.imread('image/emotion.jpg')                    # 載入圖片
+img = cv2.imread('images/emotion.jpg')                    # 載入圖片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)       # 將圖片轉成灰階
 
 face_cascade = cv2.CascadeClassifier("model/haarcascade_frontalface_default.xml")   # 載入人臉模型

@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 import numpy as np
 
-img = cv2.imread('image/jay.jpg')
+img = cv2.imread('images/jay.jpg')
 face_cascade = cv2.CascadeClassifier("model/haarcascade_frontalface_default.xml")   # 載入人臉模型
 faces = face_cascade.detectMultiScale(img)    # 偵測人臉
 
